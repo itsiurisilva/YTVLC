@@ -5,6 +5,9 @@
 ![AD Free](https://img.shields.io/badge/AD-Free-blue.svg)
 ![Lightweight](https://img.shields.io/badge/Low_CPU_&_RAM-lightgrey.svg)
 ![Made with Python](https://img.shields.io/badge/Made_with-Python-yellow.svg)
+[![Latest Release](https://img.shields.io/github/v/release/itsiurisilva/YTVLC?label=Latest%20Release)](https://github.com/itsiurisilva/YTVLC/releases)
+[![Downloads](https://img.shields.io/github/downloads/itsiurisilva/YTVLC/total.svg)](https://github.com/itsiurisilva/YTVLC/releases)
+
 
 Aplicação leve em **Python + Tkinter** que permite:
 - Pesquisar músicas ou playlists no YouTube (NO ADS)
