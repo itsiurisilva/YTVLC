@@ -1,5 +1,9 @@
 # 🎵 YTVLC – YouTube to VLC Player
 <img width="512" height="512" alt="YTVLC_icon" src="https://github.com/user-attachments/assets/b066e181-b989-43ad-9384-1d6a1bea4f59" />
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![AD Free](https://img.shields.io/badge/AD-Free-blue.svg)
+![Lightweight](https://img.shields.io/badge/Low_CPU_&_RAM-lightgrey.svg)
+![Made with Python](https://img.shields.io/badge/Made_with-Python-yellow.svg)
 
 Aplicação leve em **Python + Tkinter** que permite:
 - Pesquisar músicas ou playlists no YouTube (NO ADS)
