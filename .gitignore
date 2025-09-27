@@ -1,0 +1,31 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Logs & temp
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# ---- PyInstaller / build ----
+build/
+dist/
+*.spec
+
+# Caches
+.cache/
+pip-wheel-metadata/
+
+# IDE
+.vscode/
+.idea/
