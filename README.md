@@ -1,7 +1,7 @@
 # 🎵 YTVLC – YouTube to VLC Player
 
 Aplicação leve em **Python + Tkinter** que permite:
-- Pesquisar músicas ou playlists no YouTube
+- Pesquisar músicas ou playlists no YouTube (NO ADS)
 - Reproduzir diretamente no **VLC** (áudio ou vídeo)
 - Fazer download em **MP3 (áudio)** ou **MP4 (vídeo)**
 - Interface simples e escura
@@ -48,6 +48,13 @@ Aplicação leve em **Python + Tkinter** que permite:
 - [VLC](https://www.videolan.org/) → player de áudio/vídeo
 - [FFmpeg](https://ffmpeg.org/) → conversão para MP3/MP4
 - [Pillow](https://python-pillow.org/) + [Requests](https://docs.python-requests.org/) → thumbnails
+
+---
+
+## 💡 Vantagens
+- **Sem anúncios** (*AD Free*)
+- **Consumo baixo de CPU e memória** comparado a abrir o YouTube no navegador
+- **Leve e rápido**, pensado para uso diário sem pesar no sistema (Gaming)
 
 ---
 
