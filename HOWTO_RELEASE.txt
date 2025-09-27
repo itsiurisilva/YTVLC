@@ -1,0 +1,36 @@
+HOW TO CREATE A GITHUB RELEASE (Step-by-step)
+
+1) Build your EXE with PyInstaller
+   - Open PowerShell in the folder that has ytvlc_gui.py
+   - Run (with console window for logs):
+       pyinstaller --onefile --name YTVLC ytvlc_gui.py
+     or (no console window):
+       pyinstaller --onefile --noconsole --name YTVLC ytvlc_gui.py
+   - After building, check: dist\YTVLC.exe
+
+2) Prepare release files
+   - Recommended structure for sharing FFmpeg alongside the EXE (optional):
+       YTVLC_App/
+         YTVLC.exe
+         ffmpeg/
+           bin/
+             ffmpeg.exe
+             ffprobe.exe
+   - Zip it (right-click the YTVLC_App folder > Send to > Compressed (zipped) folder).
+   - If you don't want to ship FFmpeg, just upload the EXE alone.
+
+3) Create a Release on GitHub
+   - Go to your repository page on GitHub.
+   - Click 'Releases' (right side) > 'Draft a new release'.
+   - Tag version: e.g. v1.0.0 (click 'Create new tag' if needed).
+   - Release title: e.g. YTVLC v1.0.0
+   - Description: write what's included and any notes.
+   - Drag & drop your YTVLC_App.zip (or YTVLC.exe) into the 'Attach binaries' area.
+   - Click 'Publish release'.
+
+4) Share
+   - Share the Release link; users can download the zip/exe directly.
+
+Tips:
+- Keep the main branch clean (source code only). Put binaries only in Releases.
+- If antivirus flags the EXE, ask users to whitelist it or use the Python source.
